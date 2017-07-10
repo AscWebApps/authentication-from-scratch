@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Authentication From Scratch in Ruby on Rails</title>
+    <title>
+      <%if content_for?(:title)%>
+        <%= yield(:title)%>
+      <%else%>
+        Authentication From Scratch in Ruby on Rails
+      <%end%>
+    </title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
