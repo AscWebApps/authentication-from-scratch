@@ -3,7 +3,7 @@
 
 ### Main Features
 
-* Rails version: 5.1.2
+* Rails version: 5.1.3
 
-* Ruby version: 2.4.0
+* Ruby version: 2.4.1
 
