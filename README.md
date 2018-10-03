@@ -5,7 +5,7 @@
 ```
 $ rails new authentication-from-scratch
 
-``` 
+```
 
 ### Create a controller users
 ```
@@ -40,7 +40,4 @@ end
 
 Ruby version | Rails version | Bootstrap
 ------------ | ------------- | ---------
-2.4.1        | 5.1.3         | 3.3.7
-
-
-
+2.5.1        | 5.2.1         | 4.1.3
